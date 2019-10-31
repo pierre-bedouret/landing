@@ -1,0 +1,23 @@
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.card {
+  width: 270px;
+  height: 360px;
+  margin: 0 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: all .3s ease;
+  transform: scale(1);
+
+}
+.card img {
+  width: 70%;
+  height: 45%;
+  margin: 10px 0;
+}
+.card:hover {
+  transition: all .3s ease;
+  transform: scale(1.1);
+}

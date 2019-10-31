@@ -1,0 +1,8 @@
+.banner {
+  background: linear-gradient(rgba(50, 50, 50, 0.3), rgba(50, 50, 50, 0.3)),
+  url('../../../landing/images/background.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 200px 0px;
+}
