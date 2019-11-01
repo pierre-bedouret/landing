@@ -1,16 +1,14 @@
 .cards {
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: stretch;
 }
 .card {
-  width: 270px;
-  height: 360px;
-  margin: 0 30px;
+  flex: 1 1 0;
+  margin: 0px 10px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   transition: all .3s ease;
   transform: scale(1);
-
 }
 .card img {
   width: 70%;
@@ -20,4 +18,15 @@
 .card:hover {
   transition: all .3s ease;
   transform: scale(1.1);
+}
+
+@media (max-width: 960px) {
+  .cards {
+    display: block;
+  }
+  .card {
+    max-width: 500px;
+    margin: 20px auto;
+    padding-bottom: 30px;
+  }
 }
